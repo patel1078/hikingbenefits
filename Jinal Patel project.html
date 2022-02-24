@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiking Benefits</title>
+    <style>
+        h1,
+        h2,
+        p,
+        a {text-align: center;
+         }
+        .photo {
+            display: block;
+            text-align: center;
+            background: linear-gradient( rgba(93, 135, 155, 0.192), #445883);
+
+
+        }
+        .image {
+            padding: 4%;
+            border-radius: 50%;
+            border: rgb(18, 4, 56);
+        }
+      
+
+        li {
+            color:rgb(18, 4, 56);
+            padding-inline-start: 0;
+            line-height: 25px;
+        }
+        ol {
+            display: block;
+            padding: 50px; 
+            margin: 0 auto;
+            background: linear-gradient(rgba(42, 83, 102, 0.192), #2b4e97);
+
+        }
+      
+        h1 {
+           color: #03045E; 
+           font-weight:bolder;
+
+       }
+       
+        h2 {
+           color: #1C658C; 
+           font-weight: lighter;
+           font-family:fantasy;
+    
+       
+       }
+       .link {
+           text-decoration: none;
+           color: #ffff;
+           background-color: #03045E;
+           display: block;
+           text-align: center;
+           border-radius: 7%;
+           margin: 0 auto;
+           padding: 1%;
+       }
+        button {
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            color: #042830;
+            font-size: larger;       
+            background-color: #00B4D8;
+            border-radius: 7%;
+            border-color:aqua;
+            padding: 2%;
+            box-shadow: 2px 2px 2px #00B4D8;
+        }
+        button:hover {
+            cursor:grab; 
+            font-size: x-large;
+        }
+        .link:hover {
+            cursor: grab;
+            opacity: 0.7;
+        }
+        strong {
+            font-size: larger;
+            font-family: fantasy;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Benefits of Hiking🏔</h1>
+    <h2>Four major ways hiking can improve your life🎒🥾</h2>
+        <div class="photo">
+            <img class="image" src="https://scontent-ort2-2.xx.fbcdn.net/v/t39.30808-6/265294557_10165547288395543_174537532093233639_n.jpg?stp=c69.0.414.414a_dst-jpg_p552x414&_nc_cat=103&ccb=1-5&_nc_sid=da31f3&_nc_ohc=GTYpLo76tE0AX8WIhyb&_nc_ht=scontent-ort2-2.xx&oh=00_AT_xO-jESZNfBGrF-28_eEzr9opzcoG7ovgUehSeHFIAyQ&oe=621B2451" alt="woman hiking on a mountain" width="300">
+        </div>
+        <p>        
+        <hr>
+        <div>
+            <ol>
+            <span>
+                <li><strong>🌎Hiking can be enjoyed by almost anyone in any part of the world.</strong><br /> Hiking is an outdoors activity that can be done in almost any terrain. My favorite is in the mountains. However, you can choose to hike a nature trail in a park or garden. There is no right or wrong. You can turn a simple walk in the park into hiking by choosing an uneven rugged trail. If there is a lake, you can hike around the lake. You can go on hiking trips to the mountains to hike trails. Hiking is an universal activity that can be enjoyed by almost anyone. It can be done solo, or with other people or pets. You can hike in the rain, snow, or the perfect sunny day; although have to be very careful and use caution in bad weather. Overall, hiking is a very versatile activity that can be enjoyed by anyone.</li><br/>
+                <br />
+                <li><strong>❤️💪🏼Hiking is a great cardio and strength training workout.</strong><br /> Let me explain how. When I go backpacking, I take a backpack with me and hike up mountains. The uphill and downhill hikes use different muscle groups. Adding weights on the back, such as a backpack, helps with strengh training. Naturally, the heart rate will go up to compensate for increased bodily activity and energy needs while hiking. This makes it a great cardio and weights workout in short. You can burn a lot of calories, strengthen the heart and other muscles, while enjoying the views that many trails provide.</li><br/>
+                <br />
+                <li><strong>🧠🙂Mental health can improve.</strong><br /> Hiking and nature have natural benefits in helping with mental health, along with physical health. Being in nature, combined with exercise, helps with stress management, anxiety, depression, by practicing mindfullness focusing on the trail ahead and the beautiful surroundings or scenery. Exercise releases natural biochemicals in the brain which can also help improve the mood. While you may be burning a sweat physically, your mind can actually feel more relaxed while hiking.</li><br/>
+                <br />
+                <li><strong>💡Hiking can be inspirational and help improve productivity.</strong><br /> Many artists, writers, and other creative people, are often inspired by nature. Hiking allows you to feel a sense of accomplishment while doing a challenging hike. You may have many realizations along the way as you focus on the journey. After all, it is not always about the destination. The destination can be the reward, in the form of stunning landscape views, but just like the hike itself, life is a journey. Hiking is a metaphor for life with ups and downs, preserverence, personal growth, and catching beautiful moments.</li><br/>
+            </span>
+            </ol>
+        </div>
+    </p>
+    <button>
+        <strong>Sign up now for the next hiking trip</strong>     
+    </button>
+    <br />
+    <a class= link href="https://www.healthline.com/nutrition/hiking-calories-burned" target="_blank">Read more about the benefits of hiking.</a>
+    <p class="author">
+        Created by: Jinal Patel
+    </p>
+    <script>
+        function SignUp () {
+        let name= prompt("What is your first and last name?");
+        let email= prompt("What is your email address?");
+        let age= prompt("What is your age");
+        
+        if (age >=18) {alert("Awesome! Welcome " + name + "! You will soon be receiving an email at, " +email+ ", about how to join this amazing adventure!" ); }
+        else {alert("Sorry " + name + ", you are too young to join this hiking trip for now.");
+        }      
+              
+    }
+     
+        let SignUpNow = document.querySelector("button");
+
+         SignUpNow.addEventListener("click", SignUp);
+        
+    </script>
+  </body>
+</html>
